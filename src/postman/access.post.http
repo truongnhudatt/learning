@@ -1,0 +1,9 @@
+@url = http://localhost:3000/v1/api
+
+###signup
+POST {{url}}/shop/signup
+Content-Type: application/json
+
+{
+    "name": "Truong nhu dat"
+}
